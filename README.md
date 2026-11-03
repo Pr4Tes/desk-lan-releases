@@ -1,6 +1,8 @@
-# Prates LAN — distribuição oficial
+# Desk LAN — distribuição oficial
 
-[Baixar a versão mais recente](https://github.com/Pr4Tes/prates-lan-releases/releases/latest)
+Desk LAN é o novo nome do Prates LAN. As versões históricas e seus executáveis mantêm os nomes originais para compatibilidade.
+
+[Baixar a versão mais recente](https://github.com/Pr4Tes/desk-lan-releases/releases/latest)
 
 Windows x64 portátil. Extraia o ZIP e abra PratesLAN.exe nos dois PCs da mesma LAN. Acesso remoto exclusivamente local, com código de nove números e senha de seis dígitos. O acesso automático exige aprovação prévia do certificado do PC. As fontes permanecem no repositório privado.
 
