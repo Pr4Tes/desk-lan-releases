@@ -2,22 +2,26 @@
 
 Desk LAN é o novo nome do Prates LAN. [Baixar a versão mais recente](https://github.com/Pr4Tes/desk-lan-releases/releases/latest).
 
-## Instalar a versão 1.6.1
+## Instalar a versão 1.7.0
 
-[Baixar instalador para Windows 10/11 x64](https://github.com/Pr4Tes/desk-lan-releases/releases/download/v1.6.1/DeskLAN-Setup-1.6.1-Windows-x64.exe).
+[Baixar instalador para Windows 10/11 x64](https://github.com/Pr4Tes/desk-lan-releases/releases/download/v1.7.0/DeskLAN-Setup-1.7.0-Windows-x64.exe).
 
 Execute o instalador e siga o assistente em português. A instalação é por usuário, sem exigir administrador, com atalho no menu Iniciar e atalho opcional na área de trabalho. Inclui desinstalador e preserva as preferências existentes. O aplicativo não inicia com o Windows nem compartilha automaticamente. O instalador não configura firewall, RDP ou serviço.
 
 ## Usar sem instalar
 
-O portátil continua disponível. Baixe DeskLAN-1.6.1-Windows-x64.exe ou extraia o ZIP e abra DeskLAN.exe nos dois PCs da mesma rede local. Atualize os dois PCs para 1.6.1.
+O portátil continua disponível. Baixe DeskLAN-1.7.0-Windows-x64.exe ou extraia o ZIP e abra DeskLAN.exe nos dois PCs da mesma rede local. Atualize os dois PCs para 1.7.0.
 
-Novidades da 1.6.1: busca de computadores com compartilhamento ativo na rede, favoritos e histórico de 20 conexões autorizadas, transferência de arquivos nos dois sentidos com confirmação e SHA-256 (até 2 GiB), qualidade automática e reconexão com até cinco tentativas. Atualize os dois computadores. Arquivos interrompidos precisam ser enviados novamente.
+Recursos mantidos: busca de computadores com compartilhamento ativo na rede, favoritos e histórico de 20 conexões autorizadas, transferência de arquivos nos dois sentidos com confirmação e SHA-256 (até 2 GiB), qualidade automática e reconexão com até cinco tentativas. Atualize os dois computadores. Arquivos interrompidos precisam ser enviados novamente.
 
 Temas Claro e Escuro em Configurações > Aparência > Tema do aplicativo, com mudança imediata e preferência salva. Perfil, identidade e preferências anteriores preservados. Acesso remoto somente na LAN, com TLS e autenticação. Compartilhamento sempre visível. Sem serviço ou relay na nuvem.
 
-O arquivo técnico PratesLAN-1.6.1-Windows-x64.exe contém os mesmos bytes do DeskLAN e permite compatibilidade com o canal de atualizações assinado anterior. Manifestos, assinaturas e hashes acompanham a release. As atualizações internas continuam usando o executável portátil. As versões históricas são preservadas.
+O arquivo técnico PratesLAN-1.7.0-Windows-x64.exe contém os mesmos bytes do DeskLAN e permite compatibilidade com o canal de atualizações assinado anterior. Manifestos, assinaturas e hashes acompanham a release. As atualizações internas continuam usando o executável portátil. As versões históricas são preservadas.
 
-122 testes funcionais, 27 verificações de interface/reconexão e 13 do instalador aprovados com imagens sintéticas e entrada simulada. O instalador também passou por instalação, reinstalação e desinstalação em pasta de teste. Confira SHA256SUMS-PUBLIC.txt e VALIDACAO-INSTALADOR.txt nos arquivos da release. Teste entre dois PCs físicos permanece pendente. Código-fonte no repositório privado do proprietário; perfis, senhas e chaves privadas não são publicados.
+122 testes funcionais, 34 verificações de interface/reconexão e 13 do instalador aprovados com imagens sintéticas e entrada simulada. O instalador também passou por instalação, reinstalação e desinstalação em pasta de teste. Confira SHA256SUMS-PUBLIC.txt e VALIDACAO-INSTALADOR.txt nos arquivos da release. Teste entre dois PCs físicos permanece pendente. Código-fonte no repositório privado do proprietário; perfis, senhas e chaves privadas não são publicados.
 
-A 1.6.1 também corrige a detecção da versão instalada no atualizador, evitando oferecer a própria versão novamente.
+O atualizador usa a versão real do executável para evitar oferecer a própria versão novamente.
+
+## Nova aparência na 1.7.0
+
+Modo claro e escuro com troca imediata pelo botão Tema na tela inicial, sincronizado com Configurações e salvo no perfil. Cartões e botões arredondados, paleta refinada, listas com seleção consistente, foco de teclado visível e indicador de compartilhamento ativo/desativado. As cores da imagem remota são preservadas. Atualização da instalação 1.6.1 para 1.7.0 verificada, com 122 testes funcionais, 34 de interface/reconexão e 13 do instalador.
